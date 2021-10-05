@@ -1,14 +1,19 @@
-const FirtsAlert = () => {
+const FirtsAlert = ({alt,anc,backcolor,colorfont,text}) => {
     return(
         <div>
             
-            <div>
-                 default_firtsAlert
-            </div>
+            <div style={{
+                height: alt,
+                width: anc,
+                background: backcolor,
+                font: colorfont,
+                borderRadius: '3px'
 
-            <div>
-                 successes_firtsAlert
+            }}>
+                {text}
             </div>
+            <br />
+
 
         </div>
     )
