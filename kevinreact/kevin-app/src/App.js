@@ -1,11 +1,12 @@
-
+import { FirtsAlert } from "./components/Alerts";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hola Mundo</h1>
-      
+        
+       <FirtsAlert> </FirtsAlert>
+
       </header>
     </div>
   );
